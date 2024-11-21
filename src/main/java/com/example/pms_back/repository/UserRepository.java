@@ -14,6 +14,10 @@ public interface UserRepository extends JpaRepository<User, String> {
     User getUserByName(String name);
     User getUserByEmail(String email);
 
+    boolean existsById(String id);
+    Boolean existsByName(String name   );
+    Boolean existsByEmail(String email);
+
     void deleteUserByName(String name);
 
     @Override

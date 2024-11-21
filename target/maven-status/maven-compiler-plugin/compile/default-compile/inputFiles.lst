@@ -1,8 +1,14 @@
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/PmsBackApplication.java
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/controller/UserController.java
+/home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/model/Stats.java
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/model/User.java
+/home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/model/dto/StatsDTO.java
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/model/dto/UserDTO.java
+/home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/repository/StatsRepository.java
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/repository/UserRepository.java
+/home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/service/StatsService.java
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/service/UserService.java
+/home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/service/impl/StatsServiceImpl.java
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/service/impl/UserServiceImpl.java
+/home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/utils/StatsDTOMapper.java
 /home/myra/pms_back/pms_back/src/main/java/com/example/pms_back/utils/UserDTOMapper.java

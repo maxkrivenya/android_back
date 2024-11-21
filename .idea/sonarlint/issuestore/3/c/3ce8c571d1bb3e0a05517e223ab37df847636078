@@ -1,13 +1,19 @@
 
 Ÿ
-java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "user".(…ªõ8¥ì¨ƒ©2J$afdd1598-e4cd-4bac-b461-d420636dd815
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "user".(…ªõ8õïª®´2J$41fac08b-d799-4463-80ca-b11bb0bb52e1
 Ÿ
-java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "user".(…ªõ8Ä¸ƒ©2J$350106a8-5485-4e60-aee9-9721521e5eae
+java:S1488 "\Immediately return this expression instead of assigning it to the temporary variable "user".(…ªõ8öïª®´2J$622e4eda-d6db-4b77-8168-f9367118c318
 ¤
-java:S1488 "\Immediately return this expression instead of assigning it to the temporary variable "user".(œ°åõıÿÿÿÿ8¥ì¨ƒ©2J$ca3386e1-7e68-4709-b7a3-5d85164db4b7
+java:S1488%"\Immediately return this expression instead of assigning it to the temporary variable "user".(œ°åõıÿÿÿÿ8öïª®´2J$d69c72bf-6d3f-4641-8eff-a60e55627661
  
-java:S1488%"]Immediately return this expression instead of assigning it to the temporary variable "users".(ƒåş³8¥ì¨ƒ©2J$a344b1bb-3098-4728-b2b5-d39e8828b47a
+java:S1488*"]Immediately return this expression instead of assigning it to the temporary variable "users".(ƒåş³8öïª®´2J$ac28baf1-2743-463a-8532-85dc4231aaf2
 
-java:S4144"[Update this method so that its implementation is not identical to "getUserById" on line 21.(˜Ş´Ÿ8çŠ¨ˆ©2J$8fbbfb4b-95b3-4d75-9030-cc672dd43b04
+java:S4144"[Update this method so that its implementation is not identical to "getUserById" on line 26.(˜Ş´Ÿ8†ğª®´2J$29407ec4-fe32-4fd5-b17e-d2f573094b52
 |
-java:S1172"4Remove this unused method parameter "userDTOMapper".(¸Õışùÿÿÿÿ8†‹¨ˆ©2J$0980ed54-b0ea-4f77-b614-887f36a619f7
+java:S1172"4Remove this unused method parameter "userDTOMapper".(„ò°ıÿÿÿÿ8Šğª®´2J$8a49b0e0-df8f-46f9-a69b-026b1710d471
+_
+java:S1128"=Remove this unused import 'com.example.pms_back.model.Stats'.(èÂş™ıÿÿÿÿ8İ÷¬®´2
+V
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8Ş÷¬®´2
+P
+java:S1068"3Remove this unused "statsRepository" private field.(ØíŸª8æ÷¬®´2

@@ -11,6 +11,10 @@ public interface UserService {
     User getUserByEmail(String email);
     User getUserByName(String name);
 
+    Boolean existsById(String id);
+    Boolean existsByName(String name);
+    Boolean existsByEmail(String email);
+
     void deleteUserByName(String name);
 
     User save(User user);

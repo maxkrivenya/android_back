@@ -1,21 +1,26 @@
 package com.example.pms_back.service.impl;
 
+import com.example.pms_back.model.Stats;
 import com.example.pms_back.model.User;
+import com.example.pms_back.repository.StatsRepository;
 import com.example.pms_back.utils.UserDTOMapper;
 import com.example.pms_back.service.UserService;
 import com.example.pms_back.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
+    private final StatsRepository statsRepository;
 
 
-    public UserServiceImpl(UserRepository userRepository, UserDTOMapper userDTOMapper) {
+    public UserServiceImpl(UserRepository userRepository, UserDTOMapper userDTOMapper, StatsRepository statsRepository) {
         this.userRepository = userRepository;
+        this.statsRepository = statsRepository;
     }
 
     public User getUserById(String name){
@@ -37,6 +42,19 @@ public class UserServiceImpl implements UserService {
         List<User> users = userRepository.findAll();
         return users;
     }
+
+    public Boolean existsById(String id){
+        return userRepository.existsById(id);
+    }
+
+    public Boolean existsByEmail(String email){
+        return userRepository.existsByEmail(email);
+    }
+
+    public Boolean existsByName(String name){
+        return userRepository.existsByName(name);
+    }
+
 
     public void deleteUserByName(String name){
         userRepository.deleteUserByName(name);
